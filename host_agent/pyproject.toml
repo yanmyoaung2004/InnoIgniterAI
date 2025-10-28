@@ -1,0 +1,35 @@
+# This file defines the workspace for the a2a-friend-scheduling project.
+# It tells uv that this project is a monorepo containing multiple packages.
+
+[project]
+name = "cyber-security-chatbot"
+version = "0.1.0"
+description = "A multi-agent system for cyber security."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "a2a-sdk>=0.2.5,<0.3.0",
+    "httpx>=0.28.1",
+    "langgraph>=0.3.18",
+    "pydantic>=2.10.6",
+    "python-dotenv>=1.1.0",
+    "uvicorn>=0.34.2",
+    "langchain-core",
+    "langchain_groq",
+    "fastapi>=0.115.0",
+    "sqlalchemy>=2.0.36",
+    "uvicorn[standard]",
+    "langchain-mcp-adapters>=0.1.7",
+    "Pillow>=11.0.0",
+    "pydantic[email]",
+    "aiosqlite",
+    "PyJWT", "bcrypt", "python-multipart", "passlib[bcrypt]"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+

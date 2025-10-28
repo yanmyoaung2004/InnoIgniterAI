@@ -1,0 +1,28 @@
+[project]
+name = "detection-agent-langgraph"
+version = "0.1.0"
+description = "Detects malware and malicious content using VirusTotal API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-core>=0.3.27",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.0",
+    "langgraph>=0.3.18",
+    "pydantic>=2.10.6",
+    "a2a-sdk>=0.2.5,<0.3.0",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.1.0",
+    "uvicorn>=0.34.2",
+    "langchain_groq",
+    "joblib",
+    "nltk",
+    "scikit-learn"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

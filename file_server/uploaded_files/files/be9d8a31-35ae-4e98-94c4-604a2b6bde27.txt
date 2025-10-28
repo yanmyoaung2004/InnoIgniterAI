@@ -1,0 +1,12 @@
+[
+  {
+    "lang": "en",
+    "role": "user",
+    "content": "How can I recognize a phishing email?"
+  },
+  {
+    "lang": "en",
+    "role": "assistant",
+    "content": "Phishing emails often contain urgent language, suspicious links, and requests for sensitive information. Always verify the sender's email address and avoid clicking unknown links."
+  }
+]

@@ -1,0 +1,35 @@
+# This file defines the workspace for the a2a-friend-scheduling project.
+# It tells uv that this project is a monorepo containing multiple packages.
+
+[project]
+name = "cyber-security-chatbot"
+version = "0.1.0"
+description = "A multi-agent system for cyber security."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["python-dotenv",
+ "livekit-agents",
+ "livekit-plugins-openai",
+ "livekit-plugins-silero",
+ "livekit-plugins-google",
+ "livekit-plugins-noise-cancellation",
+ "mem0ai",
+ "duckduckgo-search",
+ "langchain_community",
+ "requests",
+ "groq",
+ "psutil", 
+ "python-nmap",
+ "livekit-agents[groq]~=1.2"
+
+
+ ]
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+

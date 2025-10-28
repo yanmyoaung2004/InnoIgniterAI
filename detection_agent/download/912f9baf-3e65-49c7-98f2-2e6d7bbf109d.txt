@@ -1,0 +1,146 @@
+2025-08-28 02:15:42 UTC | LOGIN_SUCCESS | User: jsmith | IP: 192.168.1.23 | Device: Windows 10 | SessionID: 7a2f8c9d
+2025-08-28 02:18:05 UTC | LOGIN_FAILURE | User: admin | IP: 203.0.113.15 | Reason: Invalid password
+2025-08-28 02:20:11 UTC | LOGIN_SUCCESS | User: admin | IP: 203.0.113.15 | Device: Linux | SessionID: 9b8c7a3e
+2025-08-28 02:21:55 UTC | BLOCKED | SrcIP: 198.51.100.45 | DestIP: 192.168.1.10 | Protocol: TCP | Port: 22 | Reason: Port scan detected
+2025-08-28 02:23:04 UTC | ALERT | SrcIP: 203.0.113.21 | DestIP: 192.168.1.50 | Protocol: TCP | Port: 3389 | Reason: Brute force attempt
+2025-08-28 02:25:30 UTC | FAILED_TRANSACTION | User: jdoe | Action: Transfer $5000 | Reason: Suspicious IP 198.51.100.72
+2025-08-28 02:28:42 UTC | ALERT | Source IP: 203.0.113.55 | Signature: SQL Injection Attempt | Severity: High
+
+Provide a clear explanation for each suspicious log, indicate how urgent it is
+
+
+
+
+
+
+2025-08-28 03:10:12 UTC | LOGIN_FAILURE | User: root | IP: 203.0.113.42 | Reason: Invalid password
+2025-08-28 03:12:55 UTC | LOGIN_SUCCESS | User: alice | IP: 192.168.1.35 | Device: MacOS | SessionID: a1b2c3d4
+2025-08-28 03:14:03 UTC | BLOCKED | SrcIP: 198.51.100.99 | DestIP: 192.168.1.12 | Protocol: TCP | Port: 445 | Reason: Suspicious traffic
+2025-08-28 03:15:48 UTC | FILE_UPLOAD | User: bob | File: invoice.exe | IP: 192.168.1.40 | Status: Completed
+2025-08-28 03:17:22 UTC | ALERT | SrcIP: 203.0.113.77 | Signature: Brute Force SSH Attempt | Severity: High
+2025-08-28 03:19:01 UTC | ALERT | SrcIP: 198.51.100.15 | Signature: Potential Malware Execution | Severity: Critical
+2025-08-28 03:20:15 UTC | LOGIN_SUCCESS | User: root | IP: 203.0.113.42 | Device: Linux | SessionID: e5f6g7h8
+
+Analyze each event, explain why it might be concerning, and give both immediate and long-term recommendations for securing the network.
+
+
+
+
+
+
+
+
+
+
+
+
+Test Input & Scenario List for Key Features
+
+1. Phishing Link Detection
+
+Goal: Check if the bot correctly identifies safe vs. dangerous links.
+Inputs:
+
+“Check this link: http://free-gift-prize.com” (phishing style).
+
+“Is https://www.google.com safe?” (legit link).
+
+“Can you see if http://bank-login.secure-update.net is dangerous?”
+
+“This email gave me this link: https://paypa1-secure-login.com. Is it safe?”
+
+
+
+
+
+Scenario Question:
+A student receives an SMS: “You won a free iPhone! Claim now at http://win-iphone-today.com”
+ → How would the chatbot respond?
+
+2. Cyber Hygiene Tips
+
+Goal: Confirm chatbot gives localized, practical, simple advice.
+Inputs:
+
+“How can I protect my Facebook account?”
+
+“What should I do if I use public Wi-Fi?”
+
+“How do I make my password strong?”
+
+“Give me 3 tips to avoid getting hacked.”
+
+Scenario Question:
+A user logs into free Wi-Fi at a café without a VPN. They ask: “Am I safe?” → How should the chatbot guide them?
+
+3. Multilingual Support (English & Burmese)
+
+Goal: Ensure chatbot replies meaningfully in both languages.
+Inputs (Burmese):
+
+“Facebook အကောင့် လုံခြုံအောင် ဘယ်လိုထားမလဲ?”
+
+“Link တစ်ခု Safe ဖြစ်မဖြစ် စစ်ပေးပါဦး။”
+
+“Password အားကောင်းအောင် ဘယ်လိုထားရမလဲ?”
+
+Scenario Question:
+A user switches mid-conversation from English to Burmese. Does the chatbot continue smoothly in Burmese?
+
+4. User Education (Threats, Terminology, Prevention)
+
+Goal: Check chatbot can explain terms and threats in simple language.
+Inputs:
+
+“What is phishing?”
+
+“Explain ransomware in simple words.”
+
+“How do hackers steal passwords?”
+
+“What is the difference between malware and virus?”
+
+Scenario Question:
+A high school student asks: “I heard about phishing, but I don’t get it. Can you explain like I’m 14?”
+
+5. Conversational Interface (Engagement)
+
+Goal: Test natural flow + whether chatbot feels friendly & chat-like.
+Inputs:
+
+“Hey, I think my Gmail got hacked, what should I do?”
+
+“I clicked a suspicious link. Am I in danger?”
+
+“Can you give me a short quiz about cybersecurity?”
+
+“Tell me how hackers trick people, but make it simple.”
+
+Scenario Question:
+A nervous user says: “Someone messaged me saying they hacked my phone. I’m scared.” → Does the chatbot calm them and provide helpful steps?
+
+
+
+
+
+
+
+
+
+
+
+
+
+ငါ့ password ကို အမြဲတမ်းမပြောင်းဘဲသုံးသွားရင်ဘယ်လိုပြဿနာတွေဖြစ်နိုင်မလဲ?
+bank က message account verify လုပ်ဖို့ link တစ်ခုကိုနှိပ်ခိုင်းတယ်။ အဲဒါကိုနှိပ်သင့်သလား?
+တစ်ယောက်ကဖုန်းဆက်ပြီးငါ့ personal info တွေကိုမေးနေတယ်။ ဘယ်လိုပြန်လုပ်သင့်လဲ?
+USB drive တစ်ခုကိုလမ်းမှာတွေ့ပြီးကွန်ပျူတာထဲထည့်ကြည့်ချင်တယ်။ ထည့်သင့်မသင့်?
+Free public Wi-Fi တွေကနေ သုံးချင်တယ်။ အဲဒါ လုံခြုံသလား?
+ဖုန်းပျောက်သွားတဲ့အချိန် personal data မပေါ်အောင်ဘယ်လိုကာကွယ်နိုင်မလဲ?
+Social media ပေါ်မှာအတုအယောင် news တစ်ခုကိုမသိဘဲ share လိုက်မိတယ်။ အဲဒါ cyber crime အဖြစ်သတ်မှတ်လို့ရမလား?
+ငါ့ email ထဲကိုအမြဲ spam mail တွေဝင်နေတယ်။ ဒီလိုဖြစ်တာဘာကြောင့်လဲ?
+ကွန်ပျူတာ virus တွေကနေဘယ်လိုနည်းနဲ့ကာကွယ်နိုင်မလဲ?
+လူတစ်ယောက်ကငါ့ computer ကိုအခမဲ့ antivirus ထည့်ပေးမယ်ဆိုပြီးပြောနေတယ်။ ယုံသင့်သလား?
+
+
+

@@ -1,0 +1,25 @@
+[project]
+name = "Knowledge-agent-langgraph"
+version = "0.1.0"
+description = "Knowledge agent's LangGraph with A2A Protocol"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-core>=0.3.27",
+    "langchain-community>=0.3.27",
+    "langgraph>=0.3.18",
+    "pydantic>=2.10.6",
+    "a2a-sdk>=0.2.5,<0.3.0",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.1.0",
+    "uvicorn>=0.34.2",
+    "langchain_groq",
+    "mitreattack-python",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

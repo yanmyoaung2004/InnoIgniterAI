@@ -1,0 +1,85 @@
+Law Amending the Electronic Transactions Law
+The Republic of the Union of Myanmar
+State Administrative Council
+Law No. (7/2021)
+February 15, 2021 (4th day of the first lunar month, 1382)
+
+1. Enactment
+The State Administrative Council enacts this Law in accordance with Article 419 of the Constitution of the Republic of the Union of Myanmar.
+
+2. Title
+This Law shall be called the Law Amending the Electronic Transactions Law.
+
+3. Amendment to Article 2(a)
+Article 2 subsection (a) of the Electronic Transactions Law shall be substituted as follows:
+
+(a) “Information” means data, text, images, audio, video, Code Software, Application, and Database.
+
+4. New Subsections in Article 2
+Article 2 shall be supplemented with the following new subsections:
+
+(l) “Personal information” means any information which has been verified or identified as associated with a person.
+(m) “Person responsible for the management of personal information” means the person under any existing law or the provisions of this Law; including the person and their staff assigned by a government department or organization that has the authority to collect, store, and use personal information.
+(n) “Management” means the collection, acquisition, transfer, distribution, collaboration, prohibition, destruction, recording, maintenance, storage, change, retrieval, advice, use or disclosure of personal information.
+(o) “Cyber resources” means computers, computer systems, computer programs, networks, communication equipment, and data.
+(p) “Malware” means malicious code that disrupts or endangers a cyber resource.
+(q) “Cyberspace” means the environment created by the use of cyber resources in IT-based networks to collect data, access, send, distribute, or receive electronic information.
+(r) “Cyber-attack” means the use of any cyber resource to commit offenses affecting administration, finance, economy, rule of law, national security, or public safety and property; including attempts, encouragement, incitement, or conspiracy.
+5. Reclassification of Existing Subsections
+Existing Article 2 subsections (l) and (m) shall be reclassified as subsections (s) and (t), respectively, with an additional subsection (u).
+
+6. Addition to Article 3
+After Article 3 subsection (e), a new subsection is added:
+
+(f) To protect the personal information of the public in accordance with the law.
+
+7. New Chapter 10: Protection of Personal Information
+Chapter (10) – Protection of Personal Information
+27.a. The person responsible for managing and keeping personal information shall:
+
+Systematically keep, protect, and manage personal information based on its type and security level in accordance with the law.
+Not allow, disclose, inform, distribute, dispatch, modify, destroy, copy, or submit as evidence any personal information without the individual’s consent or as permitted under existing law.
+Not utilize personal information for purposes not aligned with the original objectives.
+Systematically destroy personal information after the required retention period has elapsed.
+27.b. Investigators or their authorized agents who access personal information under existing laws must keep the information confidential, except when disclosure is required by law.
+
+27.c. Personal Information Management shall not include:
+
+Prevention, investigation, evidence collection, or legal action regarding cybersecurity, cyber-attacks, cyber terrorism, cyber misuse, cyber incidents, or cyber-crimes.
+Investigation and legal proceedings in any criminal case carried out by an authorized agency.
+Activities related to the stability of state sovereignty, public order, or national security, including cybersecurity and cybercrime.
+Identification and information management conducted by the Central Committee or its designated department or organization.
+8. Chapter Renumbering
+Chapters (10), (11), (12), and (13) of the existing Electronic Transactions Law shall be reclassified as Chapters (11), (12), (13), and (14).
+
+9. Addition of Articles 38-A to 38-E
+38.a
+Failure to manage personal data in accordance with this Law by the responsible person shall result in:
+
+Imprisonment for 1 to 3 years, or
+A fine not exceeding 100 lakhs, or
+Both.
+38.b
+Unauthorized obtaining, disclosing, using, destroying, modifying, disseminating, or sending of personal data shall be punishable by:
+
+Imprisonment for 1 to 3 years, or
+A fine not exceeding 50 lakhs, or
+Both.
+38.c
+Creating misinformation or disinformation intended to cause public panic, distrust, or social division on cyberspace shall be punishable by:
+
+Imprisonment for 1 to 3 years, or
+A fine not exceeding 50 lakhs, or
+Both.
+38.d
+Cyber violence acts such as unauthorized access attempts, installing malware with harmful intent, or disrupting cyber resources with threats to national security or public stability shall be punishable by:
+
+Imprisonment for 2 to 5 years, or
+A fine not exceeding 300 lakhs, or
+Both.
+38.e
+Cyber-attacks involving unauthorized access or hacking of nationally or internationally sensitive cyber resources, or attempts to harm diplomatic relations or act in the interest of foreign states, shall be punishable by:
+
+Imprisonment for 3 to 7 years, or
+A fine not exceeding 700 lakhs, or
+Both.
