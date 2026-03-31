@@ -60,7 +60,7 @@ Frontend interface is developed separately:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/InnoIgniterAI.git
+git clone https://github.com/yanmyoaung2004/InnoIgniterAI.git
 cd InnoIgniterAI
 ```
 
