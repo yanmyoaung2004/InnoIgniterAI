@@ -264,6 +264,5 @@ The API server will start locally.
 # License
 
 Copyright © 2025 Yan Myo Aung.
-
 All rights reserved.
 
