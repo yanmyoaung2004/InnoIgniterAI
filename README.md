@@ -160,34 +160,6 @@ Blockchain Evidence Ledger
 | Frontend | React |
 | Communication | REST API |
 
----
-
-# Project Structure
-
-```
-
-InnoIgniterAI
-
-├── backend
-│   ├── API services
-│   ├── Agent orchestration
-│   ├── Security analysis modules
-│   └── RAG pipeline
-│
-├── agents
-│   ├── Threat Detection Agent
-│   ├── Knowledge Agent
-│   ├── Analysis Agent
-│   └── Response Agent
-│
-├── security
-│   ├── SIEM integration
-│   └── Threat intelligence modules
-│
-└── frontend
-└── User Interface
-
-````
 
 ---
 
